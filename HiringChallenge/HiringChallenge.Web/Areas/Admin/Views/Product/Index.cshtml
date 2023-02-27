@@ -1,0 +1,26 @@
+﻿@model List<HiringChallenge.Core.Dto.ProductListModel>
+
+<div class="card">
+    <div class="table-responsive text-nowrap m-5">
+       
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Ürünler</th>
+                    <th scope="col">Kategoriler</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+                @foreach (HiringChallenge.Core.Dto.ProductListModel product in Model)
+                {
+                    <tr>
+                        <th>@product.Name</th>
+                        <th>@product.Description</th>
+                        <th>@product.Categories </th>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

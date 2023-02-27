@@ -1,0 +1,35 @@
+﻿@model List<HiringChallenge.Core.Entity.UserList>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="container-xxl flex-grow-1 container-p-y">
+    <h4 class="fw-bold py-3 mb-4">
+        <span class="text-muted fw-light">Liste Ekleme /</span> Liste sayfası
+    </h4>
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Listeler</th>
+            </tr>
+        </thead>
+        <tbody class="table-border-bottom-0">
+            @foreach (HiringChallenge.Core.Entity.UserList userList in Model)
+            {
+                <tr>
+                    <th>@userList.Id</th>
+                    <th>@userList.Name</th>
+                    <th>
+                        <a href="/Userlist/edit?id=@userList.Id" class="btn btn-primary">Düzenle</a>
+                    </th>
+                    <th>
+                        <a href="/Userlist/delete?id=@userList.Id" class="btn btn-primary">Sil</a>
+
+                    </th>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+
+</div>

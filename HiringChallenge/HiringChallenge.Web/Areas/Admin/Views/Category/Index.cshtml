@@ -1,0 +1,38 @@
+﻿@model List<HiringChallenge.Core.Entity.Category>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="card">
+    <div class="table-responsive text-nowrap m-5">
+        <a href="https://localhost:7019/admin/category/add">
+            Kategori Ekle
+            <i class="bx-bx plus"></i>
+        </a>
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Kategori</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+                @foreach (HiringChallenge.Core.Entity.Category category in Model)
+                {
+                    <tr>
+                        <th>@category.Id</th>
+                        <th>@category.Name</th>
+                        <th>
+                            <a href="/admin/category/edit?id=@category.Id" class="btn btn-primary">Düzenle</a>
+                        </th>
+                        <th>
+                            <a href="/admin/category/delete?id=@category.Id" class="btn btn-primary">Sil</a>
+
+                        </th>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+

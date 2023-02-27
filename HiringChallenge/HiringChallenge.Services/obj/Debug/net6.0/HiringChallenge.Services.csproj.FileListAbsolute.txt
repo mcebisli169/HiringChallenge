@@ -1,0 +1,15 @@
+C:\Users\musta\Desktop\Dersler\HiringChallenge\HiringChallenge.Services\obj\Debug\net6.0\HiringChallenge.Services.csproj.AssemblyReference.cache
+C:\Users\musta\Desktop\Dersler\HiringChallenge\HiringChallenge.Services\obj\Debug\net6.0\HiringChallenge.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musta\Desktop\Dersler\HiringChallenge\HiringChallenge.Services\obj\Debug\net6.0\HiringChallenge.Services.AssemblyInfoInputs.cache
+C:\Users\musta\Desktop\Dersler\HiringChallenge\HiringChallenge.Services\obj\Debug\net6.0\HiringChallenge.Services.AssemblyInfo.cs
+C:\Users\musta\Desktop\Dersler\HiringChallenge\HiringChallenge.Services\obj\Debug\net6.0\HiringChallenge.Services.csproj.CoreCompileInputs.cache
+C:\Users\musta\Desktop\Dersler\HiringChallenge\HiringChallenge.Services\bin\Debug\net6.0\HiringChallenge.Services.deps.json
+C:\Users\musta\Desktop\Dersler\HiringChallenge\HiringChallenge.Services\bin\Debug\net6.0\HiringChallenge.Services.dll
+C:\Users\musta\Desktop\Dersler\HiringChallenge\HiringChallenge.Services\bin\Debug\net6.0\HiringChallenge.Services.pdb
+C:\Users\musta\Desktop\Dersler\HiringChallenge\HiringChallenge.Services\bin\Debug\net6.0\HiringChallenge.Core.dll
+C:\Users\musta\Desktop\Dersler\HiringChallenge\HiringChallenge.Services\bin\Debug\net6.0\HiringChallenge.Core.pdb
+C:\Users\musta\Desktop\Dersler\HiringChallenge\HiringChallenge.Services\obj\Debug\net6.0\HiringChallenge.Services.csproj.CopyComplete
+C:\Users\musta\Desktop\Dersler\HiringChallenge\HiringChallenge.Services\obj\Debug\net6.0\HiringChallenge.Services.dll
+C:\Users\musta\Desktop\Dersler\HiringChallenge\HiringChallenge.Services\obj\Debug\net6.0\refint\HiringChallenge.Services.dll
+C:\Users\musta\Desktop\Dersler\HiringChallenge\HiringChallenge.Services\obj\Debug\net6.0\HiringChallenge.Services.pdb
+C:\Users\musta\Desktop\Dersler\HiringChallenge\HiringChallenge.Services\obj\Debug\net6.0\ref\HiringChallenge.Services.dll
